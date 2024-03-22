@@ -17,6 +17,7 @@ function Header() {
           <li><Link to="/">Home</Link></li>
           <li><Link to="/courses">Courses</Link></li> {/* Add link for courses page */}
           <li><Link to="/web-app-development-bootcamp">Web App Development</Link></li>
+          <li><Link to ="/campus">Campus</Link></li>
           
           </ul>
         </nav>
