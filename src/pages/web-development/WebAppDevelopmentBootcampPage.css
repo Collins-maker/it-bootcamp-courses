@@ -1,0 +1,38 @@
+/* WebAppDevelopmentBootcampPage.css */
+
+.web-app-development-bootcamp-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  .web-app-development-bootcamp-page h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .web-app-development-bootcamp-page h3 {
+    font-size: 1.5rem;
+    margin-top: 30px;
+  }
+  
+  .web-app-development-bootcamp-page p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .web-app-development-bootcamp-page ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .web-app-development-bootcamp-page ul li {
+    margin-bottom: 10px;
+  }
+  
+  .web-app-development-bootcamp-page .hero {
+    /* Add hero section styles */
+  }
+  
+  /* Add more styles as needed for other sections */
+  

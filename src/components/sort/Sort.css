@@ -1,0 +1,19 @@
+/* Sort.css */
+
+.sort {
+    margin-bottom: 20px;
+  }
+  
+  .sort label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .sort select {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  

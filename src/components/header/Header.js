@@ -1,6 +1,8 @@
 // Header.js
 
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import './Header.css'; // Import CSS file for styling
 
 function Header() {
@@ -12,10 +14,10 @@ function Header() {
         </div>
         <nav>
           <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#courses">Courses</a></li>
-            <li><a href="#contact">Contact</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/courses">Courses</Link></li> {/* Add link for courses page */}
+          <li><Link to="/web-app-development-bootcamp">Web App Development</Link></li>
+          
           </ul>
         </nav>
       </div>
