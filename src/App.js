@@ -11,9 +11,9 @@ import Courses from './components/courses/Courses';
 import Testimonials from './components/testimonials/Testimonials';
 import Partners from './components/partners/Partners';
 import Footer from './components/footer/Footer';
-import Contact from './components/contact/Contact';
 import CoursesPage from './pages/courses/CoursesPage';
-
+import WebAppDevelopmentBootcampPage from './pages/web-development/WebAppDevelopmentBootcampPage';
+import CampusPage from './pages/campusPage/CampusPage';
 
 const App = () => {
   return (
@@ -22,8 +22,9 @@ const App = () => {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
           <Route path="/courses" element={<CoursesPage />} /> {/* Route for the courses page */}
+          <Route path="/web-app-development-bootcamp" element={<WebAppDevelopmentBootcampPage />} />
+          <Route path="/campus" element={<CampusPage />} />
         </Routes>
         <Footer />
       </div>

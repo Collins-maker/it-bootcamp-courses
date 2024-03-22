@@ -1,0 +1,27 @@
+/* LocationComponent.css */
+
+.location {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  .map {
+    flex: 1;
+  }
+  
+  .address {
+    flex: 1;
+    margin-left: 50px;
+  }
+  
+  .address h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .address p {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  

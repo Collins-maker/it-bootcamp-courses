@@ -1,0 +1,38 @@
+/* Instructors.css */
+
+.instructors {
+    margin-bottom: 40px;
+  }
+  
+  .instructors h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .instructor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .instructor img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .instructor div {
+    flex: 1;
+  }
+  
+  .instructor h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .instructor p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
