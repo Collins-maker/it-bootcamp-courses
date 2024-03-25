@@ -1,38 +1,34 @@
 /* Instructors.css */
 
 .instructors {
-    margin-bottom: 40px;
+    margin-top: 50px;
   }
   
-  .instructors h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
+  .instructor-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
   }
   
   .instructor {
+    border: 1px solid #ccc;
+    padding: 20px;
     display: flex;
-    align-items: center;
-    margin-bottom: 20px;
+    flex-direction: column;
   }
   
   .instructor img {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    max-width: 150px;
     border-radius: 50%;
-    margin-right: 20px;
-  }
-  
-  .instructor div {
-    flex: 1;
-  }
-  
-  .instructor h3 {
-    font-size: 1.5rem;
     margin-bottom: 10px;
   }
   
-  .instructor p {
-    font-size: 1rem;
-    margin-bottom: 5px;
+  .instructor-info h3 {
+    margin-top: 0;
+  }
+  
+  .instructor-info p {
+    margin-bottom: 10px;
   }
   
