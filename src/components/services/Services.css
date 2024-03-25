@@ -1,0 +1,20 @@
+/* Services.css */
+
+.services {
+    margin-top: 50px;
+  }
+  
+  .service {
+    margin-bottom: 30px;
+  }
+  
+  .service h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .service p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
