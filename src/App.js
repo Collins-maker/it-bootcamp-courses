@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import './App.css'; // Import CSS file for global styles
 import Header from './components/header/Header';
+import WorkingAt from './components/workinngat/WorkingAt';
 import  Hero from './components/hero/Hero';
 import About from './components/about/About';
 import Courses from './components/courses/Courses';
@@ -39,6 +40,7 @@ const App = () => {
 const Home = () => (
   <>
     <Hero />
+    <WorkingAt />
     <About />
     <Courses />
     <Testimonials />

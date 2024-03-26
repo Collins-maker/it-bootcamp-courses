@@ -1,7 +1,8 @@
 import React from 'react';
 import './Testimonials.css'; // Import CSS for styling
 import profile1 from '../../images/profile1.jpg'; // Import profile pictures
-import profile2 from '../../images/profile2.jpg'; // Import profile pictures
+import profile2 from '../../images/profile2.jpg';
+import profile3 from '../../images/profile3.jpg';
 
 const Testimonials = () => {
   // Sample data for testimonials (you can replace it with your actual data)
@@ -18,6 +19,13 @@ const Testimonials = () => {
       quote: 'I\'m amazed by the quality of instruction and support I received from the coding school. Thank you!',
       image: profile2,
     },
+    {
+      id: 3,
+      author: 'John Doe',
+      quote: 'The coding school provided me with invaluable skills and knowledge. I highly recommend their courses!',
+      image: profile3,
+    },
+    
     // Add more testimonials as needed
   ];
 

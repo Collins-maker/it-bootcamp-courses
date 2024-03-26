@@ -18,6 +18,35 @@ const Courses = () => {
       duration: '6 weeks',
       price: '$599',
     },
+    {
+      id: 3,
+      title: 'Web Development Bootcamp',
+      description: 'Master the fundamentals of web development with HTML, CSS, and JavaScript.',
+      duration: '12 weeks',
+      price: '$999',
+    },
+    {
+      id: 4,
+      title: 'Web Development Bootcamp',
+      description: 'Master the fundamentals of web development with HTML, CSS, and JavaScript.',
+      duration: '12 weeks',
+      price: '$999',
+    },
+    {
+      id: 5,
+      title: 'Web Development Bootcamp',
+      description: 'Master the fundamentals of web development with HTML, CSS, and JavaScript.',
+      duration: '12 weeks',
+      price: '$999',
+    },
+    {
+      id: 6,
+      title: 'Web Development Bootcamp',
+      description: 'Master the fundamentals of web development with HTML, CSS, and JavaScript.',
+      duration: '12 weeks',
+      price: '$999',
+    },
+    
     // Add more courses as needed
   ];
 

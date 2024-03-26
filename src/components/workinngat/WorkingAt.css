@@ -1,0 +1,25 @@
+/* WorkingAt.css */
+
+.working-at-container {
+    margin-top: 50px;
+  }
+  
+  .carousel {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: auto; /* Adjust the height as needed */
+  }
+  
+  .slide {
+    display: flex;
+    transition: transform 0.5s ease;
+    height: auto; /* Adjust the height as needed */
+  }
+  
+  .slide img {
+    width: calc(100% / 6);
+    height: auto;
+    max-height: 150px; /* Adjust the maximum height as needed */
+  }
+  

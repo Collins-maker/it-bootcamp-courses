@@ -1,34 +1,37 @@
 /* Instructors.css */
 
 .instructors {
-    margin-top: 50px;
-  }
-  
-  .instructor-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 20px;
-  }
-  
-  .instructor {
-    border: 1px solid #ccc;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .instructor img {
-    width: 100%;
-    max-width: 150px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-  }
-  
-  .instructor-info h3 {
-    margin-top: 0;
-  }
-  
-  .instructor-info p {
-    margin-bottom: 10px;
-  }
-  
+  margin-top: 50px;
+}
+
+.instructor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.instructor {
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: flex;
+}
+.instructor-image{
+  max-width: 100px;
+  max-height: 100px;
+  border: 2px red;
+}
+
+.instructor img {
+  width: 100px; /* Adjusted width for profile pictures */
+  height: 100px; /* Adjusted height for profile pictures */
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.instructor-info h3 {
+  margin-top: 0;
+}
+
+.instructor-info p {
+  margin-bottom: 10px;
+}
