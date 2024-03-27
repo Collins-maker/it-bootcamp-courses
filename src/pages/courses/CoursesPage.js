@@ -1,62 +1,51 @@
-// CoursesPage.js
-import React, { useState } from 'react';
-import Filter from '../../components/filter/Filter';
-import Sort from '../../components/sort/Sort';
-import Pagination from '../../components/pagination/Pagination';
-import CourseCard from '../../components/coursesCard/CourseCard'; 
+import React from 'react';
+import Hero from '../../components/hero/Hero';
+import Partners from '../../components/partners/Partners';
+import CourseCard from '../../components/coursesCard/CourseCard';
+// import course1 from './public/courses/course1.png';
+// import course2 from './public/courses/course2.jpg';
+// import course3 from './public/courses/course3.jpg'; // Corrected file name
 
 const CoursesPage = () => {
-  // Sample course data (replace with actual data from your backend or API)
-  const [courses, setCourses] = useState([
+  // Sample data for courses
+  const courses = [
     {
       id: 1,
       title: 'Web Development Bootcamp',
-      description: 'Learn full-stack web development with HTML, CSS, JavaScript, React, Node.js, and more.',
-      imageSrc: '/images/course1.jpg',
+      description: 'Master the fundamentals of web development with HTML, CSS, and JavaScript.',
       duration: '12 weeks',
-      price: '$2000'
+      price: '$999',
+      image: '/courses/course2.jpg'
     },
-    // Add more course objects as needed
-  ]);
-
-  // Pagination state
-  const [currentPage, setCurrentPage] = useState(1);
-  const coursesPerPage = 3; // Change this value as needed
-  const totalPages = Math.ceil(courses.length / coursesPerPage);
-
-  // Handle page change
-  const handlePageChange = (pageNumber) => {
-    setCurrentPage(pageNumber);
-  };
-
-  // Filter and Sort functions (add your logic here)
+    {
+      id: 2,
+      title: 'Web Development Bootcamp',
+      description: 'Master the fundamentals of web development with HTML, CSS, and JavaScript.',
+      duration: '12 weeks',
+      price: '$999',
+      image: '/courses/course2.jpg'
+    },
+    {
+      id: 3,
+      title: 'Web Development Bootcamp',
+      description: 'Master the fundamentals of web development with HTML, CSS, and JavaScript.',
+      duration: '12 weeks',
+      price: '$999',
+      image: '/courses/course3.jpg'
+    },
+    // Add more courses as needed
+  ];
 
   return (
     <div className="courses-page">
-      <div className="courses-page-content">
-        <h1>Our Courses</h1>
-        <div className="filters">
-          <Filter />
-          <Sort />
-        </div>
-        <div className="course-list">
-          {courses
-            .slice((currentPage - 1) * coursesPerPage, currentPage * coursesPerPage)
-            .map(course => (
-              <CourseCard
-                key={course.id}
-                title={course.title}
-                description={course.description}
-                imageSrc={course.imageSrc}
-              />
-            ))}
-        </div>
-        <Pagination
-          currentPage={currentPage}
-          totalPages={totalPages}
-          handlePageChange={handlePageChange}
-        />
+      <Hero />
+      <h1>Our Courses</h1>
+      <div className="course-list">
+        {courses.map(course => (
+          <CourseCard key={course.id} course={course} />
+        ))}
       </div>
+      <Partners />
     </div>
   );
 };

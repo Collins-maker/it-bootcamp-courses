@@ -20,7 +20,7 @@
   
   .course-card img {
     width: 100%;
-    height: auto;
+    height: 100px;
     border-radius: 8px;
     margin-bottom: 20px;
   }
