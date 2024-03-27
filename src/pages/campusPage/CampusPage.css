@@ -1,0 +1,142 @@
+/* CampusPage.css */
+
+.campus-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin-left: 20px;
+  }
+  
+  /* Style for header */
+  .header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+  }
+  
+  
+  .campus-hero-content {
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .campus-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .campus-hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for programs section */
+  .programs {
+    margin-top: 50px;
+  }
+  
+  .program {
+    margin-bottom: 30px;
+  }
+  
+  .program h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .program p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .program a {
+    font-size: 1.2rem;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .program a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style for location component */
+  .location {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  .map {
+    flex: 1;
+  }
+  
+  .address {
+    flex: 1;
+    margin-left: 50px;
+  }
+  
+  .address h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .address p {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  /* Style for testimonials section */
+  .testimonials {
+    margin-top: 50px;
+  }
+  
+  .testimonial {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial span {
+    font-weight: bold;
+  }
+  
+  /* Style for footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  

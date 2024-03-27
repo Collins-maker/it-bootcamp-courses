@@ -1,25 +1,39 @@
+/* Partners.css */
+
 .partners-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .partners-container h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-  }
-  
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.partners-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.partner-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.partner-logos img {
+  width: 150px; /* Adjust the width as needed */
+  margin: 10px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 574px) {
   .partner-logos {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 20px;
+    flex-direction: column;
+    justify-content: center; /* Center the items horizontally */
   }
-  
+
   .partner-logos img {
-    width: 150px; /* Adjust the width as needed */
-    margin: 10px;
+    max-width: 80%; /* Limit the maximum width */
   }
-  
+}
