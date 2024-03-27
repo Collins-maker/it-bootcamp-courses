@@ -3,6 +3,7 @@ import Hero from '../../components/hero/Hero';
 import Partners from '../../components/partners/Partners';
 import CourseCard from '../../components/coursesCard/CourseCard';
 import heroCourse from '../../images/heroCourse.jpg'
+import './CoursesPage.css';
 
 const CoursesPage = () => {
   // Sample data for courses
@@ -42,7 +43,7 @@ const CoursesPage = () => {
         
         heroImage={heroCourse}
       />
-      <h1>Our Courses</h1>
+      <h1 id='our-courses'>Our Courses</h1>
       <div className="course-list">
         {courses.map(course => (
           <CourseCard key={course.id} course={course} />

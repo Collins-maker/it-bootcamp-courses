@@ -2,8 +2,13 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 40px;
+    text-align: center;
   }
-  
+
+ /* #our-courses{
+  margin: 10px auto;
+ } */
+
   .course-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
