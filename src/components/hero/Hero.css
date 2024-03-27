@@ -1,3 +1,5 @@
+/* Existing CSS */
+
 .hero-container {
   margin-top: 50px;
   margin-bottom: 20px;
@@ -48,12 +50,37 @@
 .hero-image-container {
   flex: 1;
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
 }
 
 .hero-image-container img {
   object-fit: contain;
-  max-width: 100%; /* Set maximum width to 50% of the container */
-  max-height: 100%; /* Maintain aspect ratio */
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    height: auto; /* Remove fixed height */
+  }
+
+  .hero-content {
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .button-container {
+    margin-top: 20px;
+  }
 }
