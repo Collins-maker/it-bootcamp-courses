@@ -29,7 +29,10 @@ const Instructors = () => {
       <div className="instructor-grid">
         {instructorsData.map((instructor) => (
           <div className="instructor" key={instructor.id}>
+            <div className='instructor-image'>
             <img src={instructor.image} alt={instructor.name} />
+            </div>
+          
             <div className="instructor-info">
               <h3>{instructor.name}</h3>
               <p><strong>{instructor.title}</strong></p>
