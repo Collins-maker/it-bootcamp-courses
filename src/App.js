@@ -7,6 +7,7 @@ import './App.css'; // Import CSS file for global styles
 import Header from './components/header/Header';
 import WorkingAt from './components/workinngat/WorkingAt';
 import  Hero from './components/hero/Hero';
+import heroImage from './images/heroImage.jpg'
 import About from './components/about/About';
 import Courses from './components/courses/Courses';
 import Testimonials from './components/testimonials/Testimonials';
@@ -39,7 +40,13 @@ const App = () => {
 
 const Home = () => (
   <>
-    <Hero />
+    <Hero
+        title="IGNITE YOUR CAREER IN TECH"
+        description="Turn ambition into job-ready skills and become a Web Developer, Data Scientist, Data Analyst, UX/UI Product Designer, or Marketing Analyst from scratch."
+        buttonText1="Explore Bootcamps"
+        buttonText2="Apply Now"
+        heroImage={heroImage}
+      />
     <WorkingAt />
     <About />
     <Courses />
