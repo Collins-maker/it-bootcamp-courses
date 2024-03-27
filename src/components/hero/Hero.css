@@ -8,21 +8,24 @@
 .hero-content {
   flex: 1;
   padding: 20px;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .hero-content h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   font-size: 2.5rem;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .hero-content p {
   font-size: 1.1rem;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .button-container {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .explore-button,
