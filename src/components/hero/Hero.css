@@ -2,12 +2,13 @@
   margin-top: 50px;
   margin-bottom: 20px;
   display: flex;
-  height: 40vh;
+  height: 80vh;
 }
 
 .hero-content {
   flex: 1;
   padding: 20px;
+  justify-content: space-evenly;
 }
 
 .hero-content h1 {
@@ -44,12 +45,12 @@
 .hero-image-container {
   flex: 1;
   display: flex;
-  justify-content: center; /* Center the image horizontally */
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
 }
 
 .hero-image-container img {
   object-fit: contain;
-  max-width: 50%; /* Set maximum width to 50% of the container */
+  max-width: 100%; /* Set maximum width to 50% of the container */
   max-height: 100%; /* Maintain aspect ratio */
 }
