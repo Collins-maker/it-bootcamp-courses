@@ -1,46 +1,80 @@
 /* Header.css */
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo img {
+  height: 50px; /* Adjust height as needed */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu-icon {
+  display: none; /* Hide the menu icon by default */
+  cursor: pointer;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffc107;
+}
+
+/* Media query for small devices */
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block; /* Show the menu icon */
   }
-  
-  .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  .logo img {
-    height: 50px; /* Adjust height as needed */
-  }
-  
+
   nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    display: none; /* Hide the navigation links by default */
+    flex-direction: column; /* Align links vertically */
+    position: absolute;
+    top: 60px; /* Adjust the top position */
+    left: 0;
+    background-color: #333;
+    width: 100%;
   }
-  
+
   nav ul li {
-    display: inline-block;
-    margin-right: 20px;
+    margin: 10px 0;
   }
-  
-  nav ul li:last-child {
-    margin-right: 0;
+
+  input[type="checkbox"]:checked ~ ul {
+    display: flex; /* Show the navigation links when the checkbox is checked */
   }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  nav ul li a:hover {
-    color: #ffc107;
-  }
-  
+}
