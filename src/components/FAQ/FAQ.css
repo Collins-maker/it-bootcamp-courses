@@ -1,25 +1,27 @@
-/* FAQ.css */
-
 .faq {
-    margin-bottom: 40px;
-  }
-  
-  .faq h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-  
-  .faq-item {
-    margin-bottom: 20px;
-  }
-  
-  .faq-item h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-  }
-  
-  .faq-item p {
-    font-size: 1rem;
-    margin-bottom: 5px;
-  }
-  
+  margin-bottom: 40px;
+  text-align: center; /* Center the content horizontally */
+}
+
+.faq h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+  background-color: #f9f9f9; /* Add a background color */
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 8px; /* Add border radius for rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+.faq-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
