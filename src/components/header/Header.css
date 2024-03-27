@@ -78,3 +78,16 @@ nav ul li a:hover {
     display: flex; /* Show the navigation links when the checkbox is checked */
   }
 }
+
+/* Media query for big screens */
+@media screen and (min-width: 769px) {
+  /* Hide the checkbox */
+  #menu-toggle {
+    display: none;
+  }
+
+  /* Display the navigation links */
+  nav ul {
+    display: flex;
+  }
+}

@@ -1,5 +1,8 @@
+/* Curriculum.css */
+
 .curriculum {
   margin-bottom: 40px;
+  margin-left: 20px;
 }
 
 .curriculum h2 {
@@ -20,8 +23,8 @@
 
 .module {
   flex: 1;
-  max-width: 300px; /* Adjust as needed */
-  margin: 0 20px;
+  max-width: calc(33.33% - 40px); /* Adjust as needed */
+  margin: 20px;
   background-color: #f4f4f4; /* Add background color */
   padding: 20px;
   border-radius: 10px; /* Add border radius */
@@ -40,4 +43,11 @@
 
 .module ul li {
   margin-bottom: 10px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .module {
+    max-width: calc(50% - 40px); /* Adjust as needed for smaller screens */
+  }
 }
