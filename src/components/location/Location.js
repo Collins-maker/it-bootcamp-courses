@@ -1,5 +1,6 @@
 // LocationComponent.js
 import React from 'react';
+import './Location.css'
 
 const LocationComponent = () => {
   return (

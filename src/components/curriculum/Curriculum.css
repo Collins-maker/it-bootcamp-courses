@@ -48,6 +48,6 @@
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
   .module {
-    max-width: calc(50% - 40px); /* Adjust as needed for smaller screens */
+    max-width: calc(100% - 40px); /* Adjust as needed for smaller screens */
   }
 }
